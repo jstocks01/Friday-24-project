@@ -1,6 +1,5 @@
 // business logic 
 var beeparr = [];
-
 var word = function(input){
   var loss = beeparr.pop();
   beeparr.splice(0,loss);
@@ -12,7 +11,7 @@ for  (var i=0; i<=input; i++){
     beeparr.push("boop!"); 
   }
   else if(i.toString().includes(3) === true ){
-     beeparr.push("I can't help you Dave.");
+     beeparr.push("I'm sorry, Dave. I'm afraid I can't do that.");
    }
   else {
     beeparr.push(i);
@@ -27,6 +26,5 @@ $(document).ready(function() {
     var input = $('#input').val();
     var response = word(input);
      $("#answer").text(response);
-  
-  });
+   });
 });
