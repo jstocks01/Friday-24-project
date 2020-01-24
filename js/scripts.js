@@ -1,6 +1,9 @@
 // business logic 
 var beeparr = [];
 
+var word = function(input){
+  var loss = beeparr.pop();
+  beeparr.splice(0,loss);
 for  (var i=0; i<=input; i++){
   if (i.toString().includes(1) === true ){
     beeparr.push("beep!");
@@ -13,18 +16,17 @@ for  (var i=0; i<=input; i++){
    }
   else {
     beeparr.push(i);
-  }}
+  }} 
+  return beeparr
+}
 
 // UI logic
 $(document).ready(function() {
   $("#beep").submit(function(event) {
     event.preventDefault();
-    
-    var count = beeparr.pop();
-    beeparr.splice(0,count);
     var input = $('#input').val();
-
-   $("#answer").text(beeparr);
+    var response = word(input);
+     $("#answer").text(response);
   
   });
 });
