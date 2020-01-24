@@ -1,7 +1,7 @@
 ## Project Beep Boop ##
 An interactive number game
 by Jason Stocks, 1/24/2020
-## Desrciption ##
+## DescrSiption ##
 Have you heard of Beep Boop? No? Well let me introduce you. 
 Beep Boop is a sassy droid who interacts with you. Does he tell the future? Does he make julien fries? Actually he doesn't do any of those things. Beep just returns beep if the numbers entered contain a one. A boop if the numbers entered contain a two, and and a line fron 2001: A Space Oddessy if the numbers entered containa three. Fun at parties? you bet!
 
