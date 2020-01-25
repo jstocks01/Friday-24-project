@@ -2,9 +2,23 @@ body{
   background-color: rgb(47, 212, 177);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 input{
   width: 50%;
 }
 img{
-  width: 325px
+  width: 325px;
+
+}
+h1{
+  font-family: fantasy;
+}
+h2{
+  font-style: oblique ;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
