@@ -13,7 +13,10 @@ Beep Boop is a sassy droid who interacts with you. Does he tell the future? Does
 | User inputs a number containing three  |  Three |  "I'm sorry, Dave. I'm afraid I can't do that." |  
 
 ## Setup instructions ##
+GHpages: https://jstocks01.github.io/Friday-24-project/ Github respoitory:https://github.com/jstocks01/Friday-24-project
+
 To install:
+ 
  Clone repository by entering in the terminal prompt "git clone" followed by the URL to this repository. Use the terminal to access the right directory using the prompt [cd "repository name"]
  Open in Visual Studio with the prompt "code ."
  Open the index.html in a browser.
